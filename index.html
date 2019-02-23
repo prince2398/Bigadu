@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <!-- Navigation Panel -->
+  <div id="menu" align="center">
+    <div class="menu-option" onclick="changeContent('work')">
+      <h1>Work</h1>
+      <p>what we've made</p>
+    </div>
+    <div class="menu-option" onclick="changeContent('about')">
+      <h1>About</h1>
+      <p>who we are</p>
+    </div>
+    <div class="menu-option" onclick="changeContent('contact')">
+      <h1>Contact</h1>
+      <p>get in touch</p>
+    </div>
+  </div>
+  <!-- /Navigation Panel -->
+  <!-- Body -->
+  <div id="main">
+    <img id="notch" src="./img/notch.png">
+    <!-- Logo and icons -->
+    <header class="container">
+      <div id="logo" onclick="changeContent('home')">
+        <h3>asil<span class="highlight">verse</span></h3>
+      </div>
+      <ul>
+        <li id="search-button" class="button">
+          <i class="material-icons">search</i>
+        </li>
+        <li id="menu-button" class="button">
+          <i class="material-icons" onclick="openMenu()">menu</i>
+        </li>
+      </ul>
+    </header>
+    <!-- /Logo and icons -->
+    <!-- Main -->
+    <div id = "content" class="container" >
+      <section id = "home">
+        <h1>Hello!</h1>
+        <p class="description">We create design-driven business solutions for user experiences, digital products, and brands</p>
+        <p class="sub-text">15 INTERNATIONAL CLIENT | 8 DESIGN AWARDS | CREATIVE DESIGNERS</p>
+      </section>
+    </div>
+    <!-- /Main -->
+    <!-- Footer -->
+    <!-- <footer>
+      <hr id="v1" width=2 size=30>
+      <hr id="v2" width=2 size=112>
+    </footer> -->
+    <!-- /Footer -->
+  </div>
+  
+  <!-- /Body -->
+</body>
+</html>
