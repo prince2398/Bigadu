@@ -30,7 +30,7 @@ function clearDesc(){
 }
 function openMenu() {
   document.getElementById("menu").style.display = "inline";
-  document.getElementById("main").style.top = "10vh";
+  document.getElementById("main").style.top = "6.5vw";
   document.getElementById("main").style.transform = "scale(0.9)";
   document.getElementById("main").style.borderRadius = "1vw";
   document.getElementById("menu-button").innerHTML =
