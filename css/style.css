@@ -537,6 +537,7 @@ iframe{
   }
   #services-list p{
     font-size: 3vw;
+    line-height: 7vw;
   }
   #template{
     top:35vw;
@@ -639,7 +640,8 @@ iframe{
     font-size: 3vw;
   }
   #services-list p{
-    font-size: 2vw;
+    font-size: 2.5vw;
+    line-height: 7vw;
   }
   #template{
     top:20vw;
