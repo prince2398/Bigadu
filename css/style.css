@@ -336,6 +336,7 @@ footer #v2{
   padding-top: 0.5vh;
   border-width: 0;
   border-bottom-width:2px; 
+  border-color: rgb(238,238,238);
   vertical-align: middle;
   font: 20px "Airbnb Cereal Medium",Helvetica,sans-serif;
   background-color: transparent;
@@ -476,10 +477,10 @@ iframe{
     font-size:30vw;
   }
   .head h1{
-    font-size: 15vw;
+    font-size: 10vw;
   }
   .head p{
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   .card{
     width: 28%;
@@ -538,7 +539,7 @@ iframe{
     font-size: 3vw;
   }
   #template{
-    top:17%;
+    top:35vw;
   }
   #template img{
     width:170%;
@@ -546,6 +547,110 @@ iframe{
   #template #website{
     width:131%;
     left: 19%;
+    right:0;
+  }
+}
+@media screen and (max-width:768px) and (min-width:577px){
+  .container{
+    width:90%;
+  }
+  #menu h1{
+    font-size:3vw;
+  }
+  #menu p{
+    font-size:1vw;
+  }
+  .menu-option{
+    width:15%;
+    padding:2%;
+  }
+  #notch{
+    width:30%;
+  }
+  header{
+    padding:20px 0 0 0 ;
+  }
+  #home{
+    padding:5% 0 5% 0;
+  }
+  #home h1{
+    font-size:20vw;
+  }
+  .head h1{
+    font-size: 7vw;
+  }
+  .head p{
+    font-size: 2vw;
+  }
+  .card{
+    width: 25%;
+    height: 20vw;
+    margin:2%;
+  }
+  .card .card-img{
+    margin:2.5vw 0 0 0;
+    height:75%;
+    width:100%;
+  }
+  .card .bar .description {
+    font-size:2vw;
+  }
+  .card .bar i{
+    font-size: 3vw;
+  }
+  #designs{
+    margin:5vw 0 0 0;
+  }
+  .design{
+    width:20vw;
+    height:5vw;
+    font-size: 1.75vw;
+  }
+  #design-desc{
+    font-size:2vw;
+  }
+  .form{
+    margin: 5vw 0 5vw 0; 
+  }
+  .form .form-item{
+    margin:3vw 0 2vw 0;
+  }
+  .form .form-item .label{
+    font-size: 100%;
+  }
+  .form input{
+    width:60%;
+  }
+  .form input[type=submit]{
+    width:25vw;
+    height: 5vw;
+    font-size: 100%;
+  }
+  #description .head h1{
+    font-size:7vw;
+  }
+  .head h1 img{
+    width:8vw;
+  }
+  #services-list {
+    margin-top:10%
+  }
+  #services-list h1{
+    font-size: 3vw;
+  }
+  #services-list p{
+    font-size: 2vw;
+  }
+  #template{
+    top:20vw;
+    left:35%;
+  }
+  #template img{
+    width:120%;
+  }
+  #template #website{
+    width:93%;
+    left: 13.5%;
     right:0;
   }
 }
