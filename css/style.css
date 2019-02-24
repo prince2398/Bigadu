@@ -284,8 +284,8 @@ footer #v2{
   display: inline-block;
   margin: 1%;
   background-color: #fbfbfb;
-  width : 280px;
-  height: 87px;
+  width : 18vw;
+  height: 5vw;
   vertical-align: middle;
   text-align: center;
   cursor: pointer;
@@ -455,10 +455,10 @@ iframe{
     width:95%;
   }
   #menu h1{
-    font-size:3vh;
+    font-size:5vw;
   }
   #menu p{
-    font-size:1vh;
+    font-size:2vw;
   }
   .menu-option{
     width:25%;
@@ -562,7 +562,7 @@ iframe{
     font-size:1vw;
   }
   .menu-option{
-    width:15%;
+    width:20%;
     padding:2%;
   }
   #notch{
@@ -653,6 +653,108 @@ iframe{
   #template #website{
     width:93%;
     left: 13.5%;
+    right:0;
+  }
+}
+@media screen and (max-width:1200px) and (min-width:769px){
+  .container{
+    width:85%;
+  }
+  #menu h1{
+    font-size:3vw;
+  }
+  #menu p{
+    font-size:1vw;
+  }
+  .menu-option{
+    width:15%;
+    padding:2%;
+  }
+  header{
+    padding:30px 0 0 0 ;
+  }
+  #home{
+    padding:5% 0 5% 0;
+  }
+  #home h1{
+    font-size:15vw;
+  }
+  .head h1{
+    font-size: 7vw;
+  }
+  .head p{
+    font-size: 2vw;
+  }
+  .card{
+    width: 25%;
+    height: 20vw;
+    margin:2%;
+  }
+  .card .card-img{
+    margin:2.5vw 0 0 0;
+    height:75%;
+    width:100%;
+  }
+  .card .bar .description {
+    font-size:2vw;
+  }
+  .card .bar i{
+    font-size: 3vw;
+  }
+  #designs{
+    margin:5vw 0 0 0;
+  }
+  .design{
+    width:18vw;
+    height:5vw;
+    font-size: 1.25vw;
+  }
+  #design-desc{
+    font-size:2vw;
+  }
+  .form{
+    margin: 5vw 0 5vw 0; 
+  }
+  .form .form-item{
+    margin:3vw 0 2vw 0;
+  }
+  .form .form-item .label{
+    font-size: 100%;
+  }
+  .form input{
+    width:60%;
+  }
+  .form input[type=submit]{
+    width:25vw;
+    height: 5vw;
+    font-size: 100%;
+  }
+  #description .head h1{
+    font-size:7vw;
+  }
+  .head h1 img{
+    width:6vw;
+  }
+  #services-list {
+    margin-top:10%
+  }
+  #services-list h1{
+    font-size: 2.5vw;
+  }
+  #services-list p{
+    font-size: 2vw;
+    line-height: 5vw;
+  }
+  #template{
+    top:17vw;
+    left:37%;
+  }
+  #template img{
+    width:100%;
+  }
+  #template #website{
+    width:78%;
+    left: 11%;
     right:0;
   }
 }
